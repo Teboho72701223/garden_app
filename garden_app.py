@@ -77,9 +77,7 @@ def main():
         )
     plant_type = input("Enter the plant type: ")
 
-    # Once a season from the options is called the advice will appear for that
-    # season and the suggested plant to plant
-    # Once a plant type is called the advive for that plant will be called
+    # Save the messages in a varible
     season_message = season_advice(season)
     plant_message = plant_advice(plant_type)
 
