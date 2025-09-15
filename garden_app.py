@@ -61,20 +61,23 @@ def plant_advice(plant_type):
 # Print the generated advice
 def main():
     print(
-          "Summer" + "\n"
-          "Winter" + "\n"
-          "Spring" + "\n"
-          "Autumn"
+        "Choose a season:"
+        "Summer" + "\n"
+        "Winter" + "\n"
+        "Spring" + "\n"
+        "Autumn"
         )
     season = input("Enter the season: ")
     print(
+        "\n"
+        "Choose a plant type:"
         "\n"
         "Flowers" + "\n"
         "Vegetable" + "\n"
         "Herbs" + "\n"
         "Trees" + "\n"
         "Climbers"
-        )
+    )
     plant_type = input("Enter the plant type: ")
 
     # Save the messages in a varible
